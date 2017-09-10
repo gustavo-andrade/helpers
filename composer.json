@@ -1,0 +1,20 @@
+{
+  "name": "gustavo-andrade/helpers",
+  "description": "Lib PHP para ajudar desenvolvedores brasileiros a trabalhar de forma mais rápida.",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gustavo H. S. Andrade",
+      "homepage": "http://gustavoandrade.net"
+    }
+  ],
+  "require": {
+    "php": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "GHSA\\": "src/"
+    }
+  }
+}
